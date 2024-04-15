@@ -26,15 +26,15 @@ export default function Landing() {
         alt="bottom-left"
       ></img> */}
       <div className="flex justify-center w-screen h-screen z-50">
-        <div className="flex w-full p-28 pt-36">
-          <div className="flex flex-col justify-center gap-5 w-1/2">
+        <div className="flex w-full p-10 md:p-28 pt-36">
+          <div className="flex flex-col justify-center gap-5 md:w-1/2">
             <h1 className="text-5xl font-bold">DOWNLOAD THIS APP</h1>
-            <h2 className="text-xl font-semibold"> 
+            <h2 className="text-xl font-semibold">
               HIVE PAY is a decentralized payment solution built on the HIVE
               blockchain, revolutionizing the way transactions are conducted in
               the digital economy.
             </h2>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center flex-col md:flex-row">
               <div className="flex flex-col justify-between h-full">
                 <a
                   href={link}
@@ -62,7 +62,7 @@ export default function Landing() {
           </div>
           <img
             src="./landingImage.svg"
-            className="absolute right-0 top-32 z-50"
+            className=" right-0 top-32 hidden md:block absolute z-50"
           ></img>
         </div>
       </div>
